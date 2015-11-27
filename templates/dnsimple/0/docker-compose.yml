@@ -1,5 +1,5 @@
 route53:
-  image: rancher/external-dns:v0.1.7
+  image: rancher/external-dns:v0.1.8
   command: --provider dnsimple
   expose: 
    - 1000
